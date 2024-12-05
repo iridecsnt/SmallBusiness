@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location - Swiss Chalet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #8B0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        header nav ul li {
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .location {
+            text-align: center;
+            padding: 20px;
+        }
+        iframe {
+            border: 0;
+            width: 80%;
+            height: 450px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #8B0000;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Location</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="details.html">Details</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="location">
+            <p>Visit us at:</p>
+            <p>123 Main Street, Toronto, ON</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151!2d-79.3832!3d43.6532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z43.6532!5e0!3m2!1sen!2sca!4v12345"
+                allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Swiss Chalet - All Rights Reserved - Brianna Dionisio 301468985 </p>
+    </footer>
+</body>
+</html>
